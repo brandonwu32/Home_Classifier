@@ -1,0 +1,30 @@
+Don't worry about the ramp.txt or the ramper.py file. If you saw the description of the repo, I was trying to make
+
+a home architecture classifier but I just didn't have the time so I left it as a WIP. I was trying to do a similar
+
+project as this person's https://www.youtube.com/playlist?list=PLV1JDFUtrXpHtsRmTUeOuzFA3yLie5KZR and his tutorial
+
+is very good for a step by step. For you purposes, you only need to look at his video on the web scraper. His
+
+web scraper uses Ruby that for some reason I couldn't use so I improvised with Python. Look into the scraper folder.
+
+You will see a single python file (that is all we need for web scraping and data collection). the chromedriver
+
+thing is not relevant. Before you run the file make sure you install the libraries and drivers that are required which will
+
+be selenium (pip install selenium) or (pip3 install selenium) depending on configuration and then requests
+
+(pip install requests) or (pip3 install requests) and lastly install chromedriver by doing (brew install --cask chromedriver)
+
+. Then you can run the houzz scraper (python3 houzz_scraper.py) file and you should see the chromedriver pop up and do its thing and then
+
+you should see success in the terminal and then images appearing in the data subfolder. Some things that might error
+
+if you don't have brew then just go directly to the chrome driver website and download the Mac version. You should
+
+be able to see how web scraping works based on this repo and make your own adaptation based on how your websites
+
+are structured or what data types you need. If you're having trouble with scraping text, here is a resource
+
+https://www.youtube.com/watch?v=UOsRrxMKJYk.
+
